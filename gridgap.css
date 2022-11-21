@@ -1,0 +1,17 @@
+/* grid biginer */
+.grid-container {
+  background-color: darkgoldenrod;
+  display: grid;
+
+  grid-gap: 25px;
+
+  /* 切(templete) row 的高度 */
+  grid-template-rows: repeat(3, 150px);
+
+  /* 切(templete) coloum 的寬度 */
+  grid-template-columns: repeat(4, 150px);
+}
+
+.item {
+  background-color: aqua;
+}

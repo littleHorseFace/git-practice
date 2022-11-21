@@ -1,0 +1,24 @@
+/* grid biginer */
+.grid-container {
+  background-color: darkgoldenrod;
+  display: grid;
+
+  /* 切(templete) row 的高度 */
+  grid-template-rows: 150px 150px 1fr;
+
+  /* 切(templete) coloum 的寬度 */
+  grid-template-columns: 150px 1fr 40% 1.5fr;
+
+  /* 設定 grid ceil 的coloum的間距 類似(margin right and left)*/
+  
+  grid-column-gap: 65px;
+
+  /* 設定 grid ceil 的row的間距 類似(margin top and bottom)*/
+  /*如用%樹的話 會超出grid container 的高度 */
+
+  grid-row-gap:50px; 
+}
+
+.item {
+  background-color: aqua;
+}
